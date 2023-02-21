@@ -10,11 +10,11 @@ The goal of this section is to give you a solid knowleges about Serverless archi
 
 ## Topics
 
-The following topics will be covered in this project:
+The following topics will be covered in this section:
 
-- **What is Serverless?** We will discuss the general concept of Serverless architecture and its benefits.
 - **Function App:** We will explore Azure Function App, a serverless compute service that lets you run event-triggered code without having to explicitly provision or manage infrastructure. We will discuss its features and how it works.
 - **Using function-core-tools for local development and testing:** We will learn how to use function-core-tools, a command-line interface tool, to develop and test our Azure Function App locally.
+- **What is Serverless framework?** We will discuss the general concept of Serverless architecture and its benefits.
 - **Serverless framework as an alternative to function-core-tools:** We will explore the Serverless framework, which is an open-source tool for building Serverless applications. We will compare it with function-core-tools and discuss its pros and cons.
 - **Using App Config to manage Function App configuration:** We will learn how to use Azure App Config, a centralized configuration store, to manage the configuration of our Azure Function App.
 - **API Management:** We will discuss how to use Azure API Management to expose, secure, and manage our Serverless API.
@@ -26,26 +26,26 @@ The following topics will be covered in this project:
 
 #### Must watch
 
-- [Introduction to Serverless Computing with Azure Functions](https://www.youtube.com/watch?v=wKQ5Z5gkJ1U)
-- [Azure Functions and Event Grid: Build Event-Driven Serverless Applications](https://www.youtube.com/watch?v=JL-qaZFLzNE)
-
 #### Additional
-
-- [Getting started with Azure Functions and function-core-tools](https://www.youtube.com/watch?v=0jKuJ7Vx-4g)
-- [Using Azure App Configuration with Azure Functions](https://www.youtube.com/watch?v=7mMdKjUIuVQ)
 
 ### Reading
 
 #### Must read
 
 - [What is Serverless?](https://azure.microsoft.com/en-us/overview/serverless-computing/)
-- [Azure Functions documentation](https://docs.microsoft.com/en-us/azure/azure-functions/)
-- [Azure App Configuration documentation](https://docs.microsoft.com/en-us/azure/azure-app-configuration/)
-
+- [Introduction to Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview)
+- [Create your first Azure function](https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-node)
+- [Work with Azure Functions Core Tools](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local)
+- [What is Serverless Framework?](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/serverless/serverless-multicloud)
+- [Work with Azure Functions using Serverless Framework](https://www.serverless.com/framework/docs/providers/azure/guide/quick-start)
+- [Azure App Configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/overview)
+- [What is Azure API Management?](https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts)
+- [Create a new Azure API Management](https://learn.microsoft.com/en-us/azure/api-management/vscode-create-service-instance)
 #### Additional
 
-- [Serverless Framework documentation](https://www.serverless.com/learn/quick-start/)
-- [Azure API Management documentation](https://docs.microsoft.com/en-us/azure/api-management/)
+- [Using logs for Azure Functions monitoring ](https://learn.microsoft.com/en-us/azure/azure-functions/functions-monitor-log-analytics?tabs=csharp)
+- [Policies in Azure API Management](https://learn.microsoft.com/en-us/azure/api-management/api-management-howto-policies)
+
 
 ## Conclusion
 
