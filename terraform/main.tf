@@ -3,7 +3,7 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "~> 3.0.2"
+      version = "~> 3.92.0"
     }
   }
 
@@ -220,6 +220,7 @@ resource "azurerm_windows_function_app" "products_service" {
   lifecycle {
     ignore_changes = [
       app_settings,
+      site_config["application_stack"],
       tags["hidden-link: /app-insights-instrumentation-key"],
       tags["hidden-link: /app-insights-resource-id"],
       tags["hidden-link: /app-insights-conn-string"]
@@ -427,6 +428,7 @@ resource "azurerm_windows_function_app" "import_service" {
   lifecycle {
     ignore_changes = [
       app_settings,
+      site_config["application_stack"],
       tags["hidden-link: /app-insights-instrumentation-key"],
       tags["hidden-link: /app-insights-resource-id"],
       tags["hidden-link: /app-insights-conn-string"]
