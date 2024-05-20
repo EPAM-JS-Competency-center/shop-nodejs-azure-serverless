@@ -1,3 +1,5 @@
+# See terraform/variable.tf for more info about all variables
+
 azure_client_id       = "00000000-0000-0000-0000-000000000000"
 azure_client_secret   = "example_client_secret"
 azure_subscription_id = "00000000-0000-0000-0000-000000000000"
@@ -6,3 +8,7 @@ azure_tenant_id       = "00000000-0000-0000-0000-000000000000"
 # input 12 random letters and/or numbers
 # be creative in order not to repeat some combination of other program members
 unique_resource_id_prefix = "qwerty123456"
+
+docker_hub_username      = "foo"
+docker_hub_password      = "bar"
+docker_hub_registry_name = "baz"

@@ -22,3 +22,8 @@ resource "azurerm_resource_group" "product_service_rg" {
   location = "northeurope"
   name     = "${var.unique_resource_id_prefix}-rg-product-service-sand-ne-001"
 }
+
+resource "azurerm_resource_group" "chatbot_rg" {
+  name     = "${var.unique_resource_id_prefix}-rg-chatbot"
+  location = "West Europe"
+}
